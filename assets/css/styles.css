@@ -426,8 +426,45 @@ img {
   display: block;
 }
 
-/*===== SERVICES =====*/
+/*===== SKILLS =====*/
+.skills__container {
+  row-gap: 2.5rem;
+}
 
+.skill__content {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.skill__box {
+  background-color: #fff;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(174, 190, 205, 0.3);
+}
+
+.skill__icon,
+.skill__title {
+  color: var(--first-color);
+}
+
+.skill__icon {
+  font-size: 2rem;
+}
+
+.skill__title {
+  font-size: var(--h3-font-size);
+}
+
+.rating__icon {
+  color: var(--first-color-light);
+  font-size: 1.25rem;
+  margin: 0 var(--mb-1);
+}
+
+.skill__box:hover {
+  box-shadow: 0 6px 8px rgba(174, 190, 205, 0.4);
+}
 /*===== PROJECT IN MIND =====*/
 
 /*===== PORTFOLIO =====*/
@@ -636,7 +673,7 @@ img {
   }
 
   .about__description {
-    text-align: initial;
+    text-align: justify;
   }
   .about__img {
     width: 300px;
