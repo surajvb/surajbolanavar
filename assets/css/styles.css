@@ -396,6 +396,16 @@ img {
   font-weight: var(--font-medium);
 }
 
+.qualification__icon,
+.qualification__work {
+  font-size: var(--smaller-font-size);
+  color: var(--first-color-light);
+}
+
+.qualification__work {
+  display: block;
+}
+
 /*===== SERVICES =====*/
 
 /*===== PROJECT IN MIND =====*/
